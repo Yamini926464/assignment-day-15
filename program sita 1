@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+    int i,j;
+    printf("enter any Letter");
+    scanf("%d%d",&i,&j);
+    printf("ASCII codes\n");
+    for(i=65,j=97;i<=90,j<=122;i++,j++)
+    {
+    printf("%c->%d\t  %c->%d\n",i,i,j,j);
+}
+}
